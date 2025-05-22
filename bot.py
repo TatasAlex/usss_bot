@@ -23,6 +23,9 @@ from discord.ext import commands, tasks
 from discord.ext.commands.view import StringView
 from emoji import is_emoji
 from packaging.version import Version
+from keep_alive import keep_alive
+
+keep_alive() 
 
 
 try:
